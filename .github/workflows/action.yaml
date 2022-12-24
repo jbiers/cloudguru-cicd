@@ -8,4 +8,6 @@ jobs:
     steps:
       - name: Say hello
         run: echo "Hello cloud gurus"
+      - name: Say your machine name
+        run: echo $HOSTNAME
 
